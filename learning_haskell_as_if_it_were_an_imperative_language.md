@@ -35,7 +35,7 @@ $
 
 When calling a function in Haskell, we write the function's name first, followed by a space and its argument list. In the `hello world` example, `putStrLn` is the name of the function and string `"Hello, World!!"` is its argument. Therefore, `putStrLn` is a function which takes a single string as its argument. 
 
-The type of `putStrLn` is `String -> IO ()`. This means `putStrLn` takes a String as its argument, and returns an empty value `()` wrapped in the `IO` monad. `IO` is a function that constructs a type, namely a type constructor, where the empty value `()` is its argument. `IO ()` constructs the return type of `putStrLn`. We write type annotation by writing the function's name first, followed by two colons, followed by its type. `putStrLn :: String -> IO ()` means that `putStrLn` is a function that takes a String and returns an empty value wrapped in an `IO` monad. 
+The type of `putStrLn` is `String -> IO ()`. This means `putStrLn` takes a String as its argument, and returns an empty value `()` wrapped in the `IO` monad. `IO` is a function that constructs a type, namely a type constructor, where the empty value `()` is its argument. `IO ()` constructs the return type of `putStrLn`. We write type annotation by writing the name first, followed by two colons, followed by its type. `putStrLn :: String -> IO ()` means that `putStrLn` is a function that takes a String and returns an empty value wrapped in an `IO` monad. 
 
 ### What is a Monad?
 
