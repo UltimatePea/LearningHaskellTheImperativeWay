@@ -39,7 +39,7 @@ The type of `putStrLn` is `String -> IO ()`. This means `putStrLn` takes a Strin
 
 ### What is a Monad?
 
-You can think of monad as a box. `IO` monad is a box which exposes real world communication such as console interaction to the program itself. In Haskell, every function that does real world communication has to be wrapped in an `IO` monad. Please read on if you don't understand the monad concept. For the time being, you can think of it as a compiler type hint. 
+You can think of monad as a box. `IO` monad is a box which exposes real world communication such as console interaction to the program itself. In Haskell, every function which does real world communication has to be wrapped in an `IO` monad. Please read on if you don't understand the monad concept. For the time being, you can think of it as a compiler type hint. 
 
 ### What is `main`?
 
