@@ -43,5 +43,5 @@ You can think of monad as a box. `IO` monad is a box which exposes real world co
 
 ### What is `main`?
 
-`main` function is the only function Haskell runs in the execution. It has type `IO ()`. This makes sense because `main` is something that talks to the realworld. We assigned the value of `putStrLn "Hello, World"` to main. `putStrLn` takes a String and returns `IO ()`. Since we called `putStrLn` with a String as argument and assigned the result to `main`, the type of `main` is the same as the type of `putStrLn "Hello, World!!"`, `IO ()`.
+`main` function is the only function Haskell runs in the execution. It has type `IO ()`. This makes sense because `main` is something that talks to the realworld. We assigned the value of `putStrLn "Hello, World"` to main. `putStrLn` takes a `String` and returns `IO ()`. Since we called `putStrLn` with a `String` as argument and assigned the result to `main`, the type of `main` is the same as the type of `putStrLn "Hello, World!!"`, `IO ()`.
 
