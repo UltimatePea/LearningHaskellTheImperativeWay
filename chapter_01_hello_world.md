@@ -18,7 +18,7 @@ $
 
 ## Hello World Explained
 
-### Functions and its types.
+### Functions and their types.
 
 When calling a function in Haskell, we write the function's name first, followed by a space and its argument list. In the `hello world` example, `putStrLn` is the name of the function and string `"Hello, World!!"` is its argument. Therefore, `putStrLn` is a function which takes a single string as its argument. 
 
