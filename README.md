@@ -16,4 +16,4 @@ Please install [The Haskell Platform](https://www.haskell.org/platform). This tu
 
 [Chapter 01 - Hello World](chapter_01_hello_world.md)
 
-[Chapter 02 - Input and Output](chapter_02_input_and_output.md)
+[Chapter 02 - Input and Output and ghci](chapter_02_input_and_output.md)
