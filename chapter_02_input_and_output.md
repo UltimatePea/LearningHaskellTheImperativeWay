@@ -31,7 +31,7 @@ Ok, modules loaded: Main.
 
 Type `main` to call main function.
 
-```
+```haskell
 *Main> main
 What's your name?
 Haskell
@@ -43,7 +43,7 @@ Hello, Haskell!!
 
 We can check the type of various pieces of function on `ghci` using command `:type` or `:t`. 
 
-```
+```haskell
 *Main> :type main
 main :: IO ()
 *Main> :t getLine
@@ -57,7 +57,7 @@ putStrLn :: String -> IO ()
 
 We can evaluate simple mathematical expressions on ghci. All mathematical expressions are valid functions in haskell.
 
-```
+```haskell
 *Main> 3 + 2
 5
 *Main> 4 * 5
@@ -71,7 +71,7 @@ We can evaluate simple mathematical expressions on ghci. All mathematical expres
 
 ## Boolean Types and Equality Comparison
 
-```
+```haskell
 *Main> 3 == 2
 False
 *Main> 2 == 2
